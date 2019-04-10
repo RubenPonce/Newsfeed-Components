@@ -35,6 +35,9 @@
   margin: 0;
   font-size: 48px;
 }
+.header li:hover {
+  background: #388E3C;
+}
 .menu-button {
   position: absolute;
   left: 20px;
@@ -60,6 +63,16 @@
   font-size: 32px;
   padding: 30px 0;
   text-align: center;
+}
+.menu ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+li:hover {
+  background: #388E3C;
 }
 .menu--open {
   display: block;
@@ -103,6 +116,7 @@
   background-color: white;
 }
 .article-open {
+  transition: all 0.4s cubic-bezier(0.5, 0, 0, 1);
   height: 400px;
 }
 html,
